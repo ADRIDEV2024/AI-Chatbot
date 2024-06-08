@@ -19,7 +19,7 @@ def main() -> str:
         
         print(response_content)
         
-def prompt():
+def prompt() -> str:
     """Function to do interactions with the chatbot.
     Return: string"""
     
