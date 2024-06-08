@@ -4,7 +4,7 @@ import config
 import typer 
 
 
-def main():
+def main() -> str:
     
         openai.api_key = config.api_key
 
