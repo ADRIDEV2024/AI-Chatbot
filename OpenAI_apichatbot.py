@@ -17,7 +17,7 @@ def main() -> str:
         messages.append[{"Role":"Assistant", "Context":response_content}]
        
         
-        
+        print(response_content)
         
 def prompt() -> str:
     """Function to do interactions with the chatbot.
