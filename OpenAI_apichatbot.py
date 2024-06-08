@@ -4,7 +4,7 @@ import config
 import typer 
 
 
-def main() -> str:
+def main():
     
         openai.api_key = config.api_key
 
@@ -19,7 +19,7 @@ def main() -> str:
         
         print(response_content)
         
-def prompt() -> str:
+def prompt():
     """Function to do interactions with the chatbot.
     Return: string"""
     
