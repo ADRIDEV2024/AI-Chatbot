@@ -17,7 +17,7 @@ def main() -> str:
         messages.append[{"Role":"Assistant", "Context":response_content}]
        
         
-        print(response_content)
+        
         
 def prompt() -> str:
     """Function to do interactions with the chatbot.
@@ -28,5 +28,8 @@ def prompt() -> str:
     if context == "exit" :
         raise typer.Abort() 
     return prompt() 
+
+if __name__ == "__main__":
+    typer.run(main)
   
       
